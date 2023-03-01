@@ -1,0 +1,50 @@
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 180px;
+}
+
+.paginationItem {
+  background-color: white;
+  border: 1px solid rgba(115, 112, 112, 0.678);
+  padding: 10px 15px;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  margin: 0 5px;
+  cursor: pointer;
+  color: rgba(125, 122, 122, 0.751);
+}
+.paginationItem:hover {
+  background-color: rgba(80, 72, 229, 0.627);
+  color: white;
+}
+
+.paginationItem span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.paginationItem.active {
+  background-color: rgba(80, 72, 229, 0.823);
+  color: white;
+}
+
+.prev,
+.next {
+  border: none;
+  color: rgb(80, 72, 229);
+  cursor: pointer;
+}
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: rgba(80, 72, 229, 0.634);
+}

@@ -1,0 +1,113 @@
+.log-form-all {
+  margin-top: 30px;
+  text-align: left;
+  justify-content: center;
+  height: 600px;
+  /* width: 344px; */
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 5px 16px 1px rgba(229, 229, 229, 0.8);
+  width: 600px;
+}
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+}
+.row-pos {
+  justify-content: center;
+}
+.email-lable1,
+.password-lable1,
+.name-lable {
+  margin-top: 20px;
+  color: #6b7280;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.margin-item {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.log-btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-size2::placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 13px;
+  color: #6b7280b3;
+}
+.login-btn {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: rgba(80, 72, 229, 1);
+  border: none;
+  border-radius: 4px;
+  margin-top: 40px;
+  height: 47px;
+  color: white;
+  font-size: 16px;
+  width: 530px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.single-logout-btn {
+  background-color: rgba(80, 72, 229, 0.625);
+  color: white;
+  width: 130px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid rgba(115, 112, 112, 0.678);
+}
+.qusetion {
+  /* margin-top: 20px; */
+  font-size: 14px;
+  color: #6b7280;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ques-group p {
+  margin-top: 20px;
+}
+.forgot-pass {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.danger-lable {
+  text-align: right;
+  font-size: 14px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty {
+  text-align: right;
+  font-size: 14px;
+  color: rgba(255, 0, 0, 0.537);
+}
+.empty-exist {
+  font-size: 18px;
+  background-color: rgba(200, 53, 23, 0.488);
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80px;
+}
+.error-mess {
+  text-align: right;
+  color: #9a2e2ea1;
+}
+.logout-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 150px;
+  font-size: 25px;
+  color: #6b7280;
+}

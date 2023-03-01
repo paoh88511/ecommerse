@@ -1,0 +1,108 @@
+@media only screen and (max-width: 375px) {
+  .filter-set2 {
+    margin-top: 10px;
+  }
+}
+
+.category-page-container {
+  min-height: 90vh;
+  margin-top: 90px;
+}
+
+.category-banner-container {
+  height: 200px;
+  background-color: #182e39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.pre-next-btn {
+  color: rgba(80, 72, 229, 0.634);
+}
+.search-bar {
+  text-align: center;
+  width: 100%;
+}
+.search-bar::placeholder {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-inline {
+  background-color: #182e3900;
+  border: 0;
+  margin-left: 10px;
+  outline: none;
+  width: 230px;
+}
+.input-inline:focus {
+  border: none;
+}
+.input-inline::placeholder {
+  color: rgba(103, 99, 99, 0.367);
+}
+.bi-searchAlt-icon {
+  width: 20px;
+  height: 20px;
+}
+.bi-searchAlt {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.hr-line {
+  width: 400px;
+  /* margin-top: 100px; */
+  text-align: center;
+  align-items: center;
+}
+.filter-set2 {
+  text-align: left;
+  /* justify-content: right; */
+  display: flex;
+  justify-content: left;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  width: 250px;
+  height: 40px;
+  /* border-radius: 20px; */
+  border-bottom: 2px solid rgba(103, 99, 99, 0.463);
+  /* box-shadow: 1px 4px 8px rgb(197, 197, 197); */
+  /* background-color: white; */
+  /* border: 1px solid rgba(81, 71, 71, 0.484); */
+  color: rgba(92, 88, 88, 0.484);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.search-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.filter-set {
+  /* margin-left: 10px; */
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  /* margin-left: 10px; */
+
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid rgba(81, 71, 71, 0.484);
+  color: rgba(81, 71, 71, 0.484);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navigateNextIcon {
+  color: rgba(80, 72, 229, 0.634);
+  cursor: pointer;
+}
+/* .filter-group {
+  display: flex;
+  justify-content: center;
+} */
+option {
+  height: 50px;
+}

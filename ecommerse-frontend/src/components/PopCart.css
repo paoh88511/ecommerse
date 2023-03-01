@@ -1,0 +1,15 @@
+.total-feedback2 {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: right;
+  /* margin-right: 35px; */
+}
+.img-margin-right {
+  margin-left: 35px;
+}
+.cart-empty-message {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgba(100, 97, 97, 0.599);
+}
