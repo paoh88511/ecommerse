@@ -42,13 +42,13 @@ function Navigation() {
             <LinkContainer to="/">
               <Navbar.Brand>
                 Adminmanagement
-                <Navbar.Brand className="brand">Chuwa</Navbar.Brand>
+                <Navbar.Brand className="brand"></Navbar.Brand>
               </Navbar.Brand>
             </LinkContainer>
           ) : (
             <LinkContainer to="/">
               <Navbar.Brand>
-                Management<Navbar.Brand className="brand">Chuwa</Navbar.Brand>
+                Management<Navbar.Brand className="brand"></Navbar.Brand>
               </Navbar.Brand>
             </LinkContainer>
           )}
